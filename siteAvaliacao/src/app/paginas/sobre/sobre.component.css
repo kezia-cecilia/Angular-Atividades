@@ -1,0 +1,94 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  top: 10;
+  left: 20%;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.content h1 {
+  color: #B57EDC;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.content a:hover {
+  background-color: #b57edc70;
+  color: white;
+  transition: .5s;
+}
+
+.index {
+  margin: 20px;
+}
+
+p {
+  color: #888;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#index {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+#doces {
+  font-size: 28px;
+  text-align: center;
+  color: #B57EDC;
+}
+
+.cardapioBox {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px #E286A576;
+  transition: box-shadow 0.3s ease;
+}
+
+.cardapioBox:hover {
+  box-shadow: 0px 2px 4px #e286a5a0;
+}
+
+.cardapioBox img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.cardapioBox h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #8447b0;
+}
+
+.cardapioBox .details {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.pedidos {
+  text-decoration: none;
+  background-color: #B57EDC;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 6px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+  border: none;
+}
+
+.preco {
+  color: #E286A5;
+  font-size: 20px;
+}
+
+.pedidos:hover {
+  background-color: #9c5cc4;
+}
