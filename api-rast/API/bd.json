@@ -1,0 +1,27 @@
+{
+    "alunos":[
+        {
+            "id":1,
+            "nome": "José Roberto",
+            "idade": 15
+        },
+        {
+            "id":2,
+            "nome": "Guilherme Pereira",
+            "idade": 25
+        },
+        {
+            "id":3,
+            "nome": "Luís Andrade",
+            "idade": 35
+        },
+        {
+            "id":4,
+            "nome": "André Ramiro",
+            "idade": 20
+        }
+    ],
+    "Professor":[
+
+    ]
+}
