@@ -1,0 +1,40 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1 {
+    color: white;
+    font-size: 34px;
+    line-height: 80px;
+    padding: 0 10px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+a#lista{
+    font-size: 22px;
+}
+
+a#lista:hover{
+    text-decoration: underline;
+}
+
+a.links {
+    color: white;
+    font-size: 22px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-decoration: none
+}
+
+a.links:hover {
+    background: #e286a56a;
+    transition: .5s;
+}
+
+.bg-custom {
+    background: linear-gradient(to right, #E286A5, #B57EDC);
+}
