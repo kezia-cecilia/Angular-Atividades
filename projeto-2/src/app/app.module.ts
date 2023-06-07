@@ -10,8 +10,8 @@ import { RodapeComponent } from './sharepage/rodape/rodape.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { ContatosComponent } from './page/contatos/contatos.component';
-import { ProdutosComponent } from './produtos/produtos/produtos.component';
+import { ContatoComponent } from './page/contato/contato.component';
+import { ProdutosComponent } from './produtos/produtos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,7 @@ import { ProdutosComponent } from './produtos/produtos/produtos.component';
     SobreComponent,
     MenuComponent,
     RodapeComponent,
-    ContatosComponent,
+    ContatoComponent,
     ProdutosComponent
   ],
   imports: [

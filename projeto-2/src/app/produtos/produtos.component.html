@@ -1,13 +1,18 @@
-<h2>Lista de Produtos</h2>
-<table>
-    <tr>
-        <th>ID</th>
-        <th>Nome</th>
-        <th>Preço</th>
-    </tr>
-    <tr *ngFor=" let x of produto" >
-       <th>{{x.id}}</th>
-       <th>{{x.nome}}</th>
-       <th>{{x.preco}}</th>
-    </tr>
-</table>
+<section class="index">
+    <div class="container mt-4 mb-4">
+      <h1 id="makes" class="text-center" style="margin-bottom: 20px;">Lista de Produtos</h1>
+      <div class="row align-items-stretch">
+        <div class="col-lg-3" *ngFor="let x of produto">
+          <div class="card makeBox d-flex flex-column">
+            <img class="card-img-top" src="{{ x.img }}" alt="{{ x.nome }}">
+            <div class="card-body">
+              <h4 class="card-title">{{ x.nome }}</h4>
+              <p class="card-text id">Produto ID: {{ x.id }}</p>
+              <p class="card-text preco">{{ x.preco | currency:'BRL' }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
